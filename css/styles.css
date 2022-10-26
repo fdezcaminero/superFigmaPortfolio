@@ -1,0 +1,23 @@
+.artdeco1 {
+  margin-left: -8px;
+  margin-top: -8px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+  
+.textdeco1 {
+  color: #1a2236;
+  line-height: 100%;
+  margin-top: 19px;
+  margin-left: 16px;
+  font-weight: 400;
+  font-family: 'Playfair Display', serif;
+  font-size: 50px;
+}
+  
+.text1width {
+  width: 220px;
+}
