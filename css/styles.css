@@ -45,3 +45,15 @@ button:active {
   background: white;
   border-width: 2px 2px 2px 2px;
 }
+
+.crazyParagraph {
+    color: #1a2236;
+    width: 288px;
+    height: 80px;
+    margin-top: 21px;
+    margin-left: 16px;
+    font-family: 'Poppins', serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+  }
