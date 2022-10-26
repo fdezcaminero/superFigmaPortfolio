@@ -1,5 +1,3 @@
-# superFigmaPortfolio
-Microverse Project
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
 # Portfolio Project
