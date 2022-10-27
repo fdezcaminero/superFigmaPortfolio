@@ -1,11 +1,16 @@
 .artdeco1 {
-  margin-left: -8px;
-  margin-top: -8px;
+  background-image: url(../resources/image_geometry_1.svg);
+  background-repeat: no-repeat;
+  height: 74px;
 }
 
 nav {
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-end;
+}
+
+.burger {
+  height: 14px;
 }
 
 .textdeco1 {
@@ -62,4 +67,7 @@ button:active {
   background-image: url(../resources/image_geometry_2.svg);
   background-repeat: no-repeat;
   height: 160px;
+  background-size: cover;
 }
+
+
