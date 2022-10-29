@@ -189,11 +189,11 @@ nav {
 }
 
 .PoppinsLight {
-  font-family: PoppinsLight, sans-serif
+  font-family: PoppinsLight, sans-serif;
 }
 
 .PoppinsSemiBold {
-  font-family: PoppinsSemiBold, sans-serif
+  font-family: PoppinsSemiBold, sans-serif;
 }
 
 .blueRectangle {
@@ -275,6 +275,7 @@ nav {
 .rectangleText ul {
   margin-left: 14px;
 }
+
 .rectangleText h2 {
   margin-bottom: 10px;
 }
