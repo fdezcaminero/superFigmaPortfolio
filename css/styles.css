@@ -77,7 +77,7 @@ button:active {
   line-height: 21px;
 }
 
-.footerDeco {
+.middleDeco {
   background-image: url(../resources/image_geometry_2.svg);
   background-repeat: no-repeat;
   background-size: cover;
