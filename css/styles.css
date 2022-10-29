@@ -251,8 +251,8 @@ nav {
   background-image: url(../resources/ic_skills.svg);
   background-repeat: no-repeat;
   padding-bottom: 102px;
-  position: relative;
-  left: 0;
+  position: absolute;
+  right: 0;
   top: 187px;
   z-index: 999;
   width: 102px;
