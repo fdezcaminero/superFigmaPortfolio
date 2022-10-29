@@ -33,6 +33,15 @@ nav {
   font-size: 50px;
 }
 
+.textdeco2 {
+  color: #1a2236;
+  margin-top: 19px;
+  margin-left: 16px;
+  font-weight: 400;
+  font-family: 'Playfair Display', serif;
+  font-size: 50px;
+}
+
 .text1width {
   width: 220px;
 }
@@ -102,5 +111,12 @@ button:active {
 }
 
 .fullWidth {
+  width: 100%;
+}
+
+.blueBox {
+  background: #1a2236;
+  display: grid;
+  justify-items: flex-start;
   width: 100%;
 }
