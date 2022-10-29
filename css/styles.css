@@ -199,7 +199,6 @@ nav {
 .blueRectangle {
   background-color: #064c8a;
   height: 289px;
-  width: 289px;
   position: relative;
   color: white;
   margin-bottom: 15px;
@@ -208,7 +207,6 @@ nav {
 .redRectangle {
   background-color: #e2505c;
   height: 289px;
-  width: 289px;
   position: relative;
   color: white;
   margin-bottom: 27px;
@@ -217,7 +215,6 @@ nav {
 .yellowRectangle {
   background-color: #ffc04f;
   height: 289px;
-  width: 289px;
   position: relative;
   color: white;
   margin-bottom: 12px;
@@ -226,4 +223,29 @@ nav {
 
 .marginleft17 {
   margin-left: 17px;
+}
+
+.poundsign {
+  background-image: url(../resources/pound.svg);
+  background-repeat: no-repeat;
+  padding-bottom: 102px;
+  position: relative;
+  top: 289px;
+  z-index: 999;
+  width: 102px;
+  left: 297px;
+}
+
+.lightbulb {
+  background-image: url(../resources/ic_skills.svg);
+  background-repeat: no-repeat;
+  padding-bottom: 102px;
+  position: relative;
+  left: 0;
+  top: 187px;
+  z-index: 999;
+}
+
+.margtop99 {
+  margin-top: -99px;
 }
