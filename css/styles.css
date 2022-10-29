@@ -146,6 +146,7 @@ nav {
 }
 
 .fullWidth {
+  margin-top: -2px;
   margin-bottom: -6px;
   width: 100%;
 }
