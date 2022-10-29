@@ -183,3 +183,15 @@ nav {
   margin-top: 10px;
   margin-left: 26px;
 }
+
+.PoppinsRegular {
+  font-family: PoppinsRegular, sans-serif;
+}
+
+.PoppinsLight {
+  font-family: PoppinsLight, sans-serif
+}
+
+.PoppinsSemiBold {
+  font-family: PoppinsSemiBold, sans-serif
+}
