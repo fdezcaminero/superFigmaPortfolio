@@ -53,11 +53,18 @@ nav {
   width: 220px;
 }
 
+.width90 {
+  width: 90%;
+}
+
+.width65 {
+  width: 65%;
+}
+
 .button1 {
   border-color: white;
   font-family: 'Poppins', serif;
   font-size: 16px;
-  width: 90%;
   margin-left: 16px;
   height: 50px;
   background: #1a2236;
@@ -138,4 +145,22 @@ nav {
   padding-left: 25px;
   margin-bottom: 4px;
   background-color: #1a2236;
+}
+
+.paragraph1 {
+  color: #1a2236;
+  height: 80px;
+  margin-top: 21px;
+  margin-left: 16px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  width: 365px;
+  padding-bottom: 38px;
+}
+
+.buttonMargin1 {
+  margin-top: 10px;
+  margin-left: 26px;
 }
