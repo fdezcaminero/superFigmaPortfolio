@@ -100,3 +100,7 @@ button:active {
   background-color: #98dede;
   margin-right: 3px;
 }
+
+.fullWidth {
+  width: 100%;
+}
