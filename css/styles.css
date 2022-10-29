@@ -19,6 +19,15 @@
   height: 74px;
 }
 
+.dflex {
+  display: flex;
+  justify-content: center;
+}
+
+.margRight {
+  margin-right: 18px;
+}
+
 nav {
   display: flex;
   justify-content: flex-end;
