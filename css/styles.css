@@ -53,8 +53,8 @@ nav {
   width: 220px;
 }
 
-button {
-  border-color: #1a2236;
+.button1 {
+  border-color: white;
   font-family: 'Poppins', serif;
   font-size: 16px;
   width: 90%;
@@ -66,15 +66,17 @@ button {
   border-width: 1px 1px 1px 1px;
 }
 
-button:hover {
+.button1:hover {
   color: #1a2236;
   background: white;
+  border-color: #1a2236;
 }
 
-button:active {
+.button1:active {
   color: #1a2236;
   background: white;
   border-width: 2px 2px 2px 2px;
+  border-color: #1a2236;
 }
 
 .centerSection {
