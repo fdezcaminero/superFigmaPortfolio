@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
 
+@font-face {
+  font-family: Poppins1;
+  src: url(../resources/poppins.regular.ttf);
+}
+
 *,
 *::after,
 *::before {
@@ -124,7 +129,7 @@ button:active {
 }
 
 .projectName {
-  font-family: 'Poppins', sans-serif;
+  font-family: Poppins1, sans-serif;
   font-size: 20px;
   color: white;
   padding-left: 25px;
