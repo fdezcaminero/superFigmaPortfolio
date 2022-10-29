@@ -175,7 +175,7 @@ nav {
   font-weight: 400;
   font-size: 14px;
   line-height: 21px;
-  width: 365px;
+  width: 90%;
   padding-bottom: 38px;
 }
 
@@ -264,4 +264,17 @@ nav {
 
 .margTop2 {
   margin-top: 17px;
+}
+
+.rectangleText {
+  position: absolute;
+  top: 23%;
+  left: 20%;
+}
+
+.rectangleText ul {
+  margin-left: 14px;
+}
+.rectangleText h2 {
+  margin-bottom: 10px;
 }
