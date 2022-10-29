@@ -85,3 +85,18 @@ button:active {
   height: 0;
   padding-top: 50%;
 }
+
+.greenul {
+  display: flex;
+  justify-content: flex-start;
+  list-style: none;
+  padding-left: 27px;
+}
+
+.greenli {
+  font-size: 14px;
+  color: #1a2236;
+  border: 1px solid #98dede;
+  background-color: #98dede;
+  margin-right: 3px;
+}
