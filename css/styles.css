@@ -1,8 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
 
 @font-face {
-  font-family: Poppins1;
+  font-family: PoppinsRegular;
+  src: url(../resources/poppins.regular.ttf);
+}
+
+@font-face {
+  font-family: PoppinsLight;
   src: url(../resources/poppins.light.ttf);
+}
+
+@font-face {
+  font-family: PoppinsSemiBold;
+  src: url(../resources/poppins.semibold.ttf);
 }
 
 *,
@@ -72,7 +82,7 @@ nav {
 
 .button1 {
   border-color: white;
-  font-family: 'Poppins', serif;
+  font-family: PoppinsRegular, serif;
   font-size: 16px;
   margin-left: 16px;
   height: 50px;
@@ -148,7 +158,7 @@ nav {
 }
 
 .projectName {
-  font-family: Poppins1, sans-serif;
+  font-family: PoppinsLight, sans-serif;
   font-size: 20px;
   color: white;
   padding-left: 25px;
