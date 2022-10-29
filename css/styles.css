@@ -229,11 +229,22 @@ nav {
   background-image: url(../resources/pound.svg);
   background-repeat: no-repeat;
   padding-bottom: 102px;
-  position: relative;
-  top: 289px;
+  position: absolute;
+  top: 187px;
   z-index: 999;
   width: 102px;
-  left: 297px;
+  right: 0;
+}
+
+.squaresign {
+  background-image: url(../resources/Group18.png);
+  background-repeat: no-repeat;
+  padding-bottom: 102px;
+  position: absolute;
+  top: 194px;
+  right: 0;
+  z-index: 999;
+  width: 96px;
 }
 
 .lightbulb {
@@ -244,8 +255,9 @@ nav {
   left: 0;
   top: 187px;
   z-index: 999;
+  width: 102px;
 }
 
-.margtop99 {
-  margin-top: -99px;
+.margTop1 {
+  margin-top: 31px;
 }
