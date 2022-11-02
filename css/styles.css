@@ -283,6 +283,10 @@ nav {
   margin-top: 17px;
 }
 
+footer ul {
+  list-style: none;
+}
+
 .rectangleText {
   position: absolute;
   top: 23%;
@@ -324,10 +328,6 @@ nav {
 .awhite {
   color: white;
   margin-right: 30px;
-}
-
-footer ul {
-  list-style: none;
 }
 
 .getstarted {
