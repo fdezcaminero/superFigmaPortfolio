@@ -95,7 +95,7 @@ nav {
 
 .button1 {
   border-color: white;
-  font-family: PoppinsRegular, serif;
+  font-family: PoppinsRegular, sans-serif;
   font-size: 16px;
   margin-left: 16px;
   height: 50px;
@@ -332,13 +332,52 @@ footer ul {
 
 .getstarted {
   position: relative;
-  margin-left: 17px;
-  width: 288px;
+  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
   padding-bottom: 20px;
   background: #f9f9fa;
+}
+
+.getstartedLabel {
+  color: #1a2236;
+  line-height: 100%;
+  margin-top: 79px;
+  margin-left: 16px;
+  font-family: 'Playfair Display', serif;
+  font-size: 50px;
+  margin-bottom: 19.3px;
+  font-weight: normal;
+}
+
+.bottomDeco {
+  background-image: url(../resources/image_geometry_1.svg);
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: flex-end;
+  padding-bottom: 77px;
+  width: 115px;
+  left: 2px;
+  position: absolute;
+}
+
+.getstarted ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.getstarted form ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.bottomParagraph {
+  margin-left: 16px;
+  line-height: 21px;
+  font-family: PoppinsRegular, sans-serif;
+  margin-bottom: 16px;
 }
 
 /* .coolarrow {
