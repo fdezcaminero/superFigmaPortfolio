@@ -384,6 +384,38 @@ footer ul {
   width: 288px;
 }
 
+input {
+  width: 288px;
+  height: 52px;
+  border: 1px solid #1a2236;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+
+textarea {
+  width: 288px;
+  height: 112px;
+  border: 1px solid #1a2236;
+  border-radius: 4px;
+  margin-bottom: 20px;
+}
+
+.crazylabel {
+  color: #4a4a4a;
+  position: absolute;
+  top: 2px;
+  left: 4px;
+  font-size: 11px;
+}
+
+.posrev {
+  position: relative;
+}
+
+.formBox2-label {
+  display: none;
+}
+
 /* .coolarrow {
   margin-top: 17px;
   margin-left: 10px;
