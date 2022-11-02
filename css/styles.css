@@ -1,3 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+@font-face {
+  font-family: PoppinsRegular;
+  src: url(../resources/poppins.regular.ttf);
+}
+
+@font-face {
+  font-family: PoppinsLight;
+  src: url(../resources/poppins.light.ttf);
+}
+
+@font-face {
+  font-family: PoppinsSemiBold;
+  src: url(../resources/poppins.semibold.ttf);
+}
+
 *,
 *::after,
 *::before {
@@ -10,6 +27,19 @@
   background-image: url(../resources/image_geometry_1.svg);
   background-repeat: no-repeat;
   height: 74px;
+}
+
+.dflex {
+  display: flex;
+  justify-content: center;
+}
+
+.dflex2 {
+  display: flex;
+}
+
+.margRight {
+  margin-right: 18px;
 }
 
 nav {
@@ -33,15 +63,40 @@ nav {
   font-size: 50px;
 }
 
+.textdeco2 {
+  color: #1a2236;
+  margin-top: 35px;
+  margin-left: 16px;
+  font-weight: 400;
+  font-family: 'Playfair Display', serif;
+  font-size: 50px;
+}
+
+.textdeco3 {
+  color: #1a2236;
+  margin-top: 40px;
+  margin-left: 16px;
+  font-weight: 400;
+  font-family: 'Playfair Display', serif;
+  font-size: 50px;
+}
+
 .text1width {
   width: 220px;
 }
 
-button {
-  border-color: #1a2236;
-  font-family: 'Poppins', serif;
-  font-size: 16px;
+.width90 {
   width: 90%;
+}
+
+.width65 {
+  width: 65%;
+}
+
+.button1 {
+  border-color: white;
+  font-family: PoppinsRegular, serif;
+  font-size: 16px;
   margin-left: 16px;
   height: 50px;
   background: #1a2236;
@@ -50,15 +105,17 @@ button {
   border-width: 1px 1px 1px 1px;
 }
 
-button:hover {
+.button1:hover {
   color: #1a2236;
   background: white;
+  border-color: #1a2236;
 }
 
-button:active {
+.button1:active {
   color: #1a2236;
   background: white;
   border-width: 2px 2px 2px 2px;
+  border-color: #1a2236;
 }
 
 .centerSection {
@@ -77,7 +134,7 @@ button:active {
   line-height: 21px;
 }
 
-.footerDeco {
+.middleDeco {
   background-image: url(../resources/image_geometry_2.svg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -85,3 +142,206 @@ button:active {
   height: 0;
   padding-top: 50%;
 }
+
+.greenul {
+  display: flex;
+  justify-content: flex-start;
+  list-style: none;
+  padding-left: 27px;
+}
+
+.greenli {
+  font-size: 14px;
+  color: #1a2236;
+  border: 1px solid #98dede;
+  background-color: #98dede;
+  margin-right: 15px;
+  padding: 5px 12px;
+  font-family: PoppinsLight, sans-serif;
+}
+
+.fullWidth {
+  margin-top: -2px;
+  margin-bottom: -6px;
+  width: 100%;
+}
+
+.blueBox {
+  background: #1a2236;
+  display: grid;
+  justify-items: flex-start;
+  width: 100%;
+}
+
+.projectName {
+  font-family: PoppinsLight, sans-serif;
+  font-size: 20px;
+  color: white;
+  padding-left: 25px;
+  margin-top: 20px;
+  margin-bottom: 12px;
+  background-color: #1a2236;
+}
+
+.paragraph1 {
+  color: #1a2236;
+  height: 80px;
+  margin-top: 21px;
+  margin-left: 16px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  width: 90%;
+  padding-bottom: 38px;
+}
+
+.buttonMargin1 {
+  margin-top: 20px;
+  margin-left: 26px;
+}
+
+.PoppinsRegular {
+  font-family: PoppinsRegular, sans-serif;
+}
+
+.PoppinsLight {
+  font-family: PoppinsLight, sans-serif;
+}
+
+.PoppinsSemiBold {
+  font-family: PoppinsSemiBold, sans-serif;
+}
+
+.blueRectangle {
+  background-color: #064c8a;
+  height: 289px;
+  position: relative;
+  color: white;
+  margin-bottom: 15px;
+}
+
+.redRectangle {
+  background-color: #e2505c;
+  height: 289px;
+  position: relative;
+  color: white;
+  margin-bottom: 27px;
+}
+
+.yellowRectangle {
+  background-color: #ffc04f;
+  height: 289px;
+  position: relative;
+  color: white;
+  margin-bottom: 12px;
+  margin-top: -12px;
+}
+
+.marginleft17 {
+  margin-left: 17px;
+}
+
+.poundsign {
+  background-image: url(../resources/pound.svg);
+  background-repeat: no-repeat;
+  padding-bottom: 102px;
+  position: absolute;
+  top: 187px;
+  z-index: 999;
+  width: 102px;
+  right: 0;
+}
+
+.squaresign {
+  background-image: url(../resources/Group18.png);
+  background-repeat: no-repeat;
+  padding-bottom: 102px;
+  position: absolute;
+  top: 194px;
+  right: 0;
+  z-index: 999;
+  width: 96px;
+}
+
+.lightbulb {
+  background-image: url(../resources/ic_skills.svg);
+  background-repeat: no-repeat;
+  padding-bottom: 102px;
+  position: absolute;
+  right: 0;
+  top: 187px;
+  z-index: 999;
+  width: 102px;
+}
+
+.margTop1 {
+  margin-top: 31px;
+}
+
+.margTop2 {
+  margin-top: 17px;
+}
+
+footer ul {
+  list-style: none;
+}
+
+.rectangleText {
+  position: absolute;
+  top: 23%;
+  left: 20%;
+}
+
+.rectangleText ul {
+  margin-left: 14px;
+}
+
+.rectangleText h2 {
+  margin-bottom: 10px;
+}
+
+.margBottom {
+  margin-bottom: 21px;
+}
+
+.dgrid {
+  display: grid;
+}
+
+.bigaboutli {
+  list-style-type: none;
+  font-size: 25px;
+  margin-bottom: 10px;
+  position: relative;
+  right: 15px;
+}
+
+.blueBox2 {
+  background: #1a2236;
+  display: grid;
+  justify-content: space-between;
+  color: #92dcdc;
+  width: 100%;
+}
+
+.awhite {
+  color: white;
+  margin-right: 30px;
+}
+
+.getstarted {
+  position: relative;
+  margin-left: 17px;
+  width: 288px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 20px;
+  background: #f9f9fa;
+}
+
+/* .coolarrow {
+  margin-top: 17px;
+  margin-left: 10px;
+} */
