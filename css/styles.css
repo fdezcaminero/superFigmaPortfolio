@@ -34,6 +34,10 @@
   justify-content: center;
 }
 
+.dflex2 {
+  display: flex;
+}
+
 .margRight {
   margin-right: 18px;
 }
@@ -308,3 +312,36 @@ nav {
   position: relative;
   right: 15px;
 }
+
+.blueBox2 {
+  background: #1a2236;
+  display: grid;
+  justify-content: space-between;
+  color: #92dcdc;
+  width: 100%;
+}
+
+.awhite {
+  color: white;
+  margin-right: 30px;
+}
+
+footer ul {
+  list-style: none;
+}
+
+.getstarted {
+  position: relative;
+  margin-left: 17px;
+  width: 288px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 20px;
+  background: #f9f9fa;
+}
+
+/* .coolarrow {
+  margin-top: 17px;
+  margin-left: 10px;
+} */
