@@ -444,8 +444,31 @@ textarea {
   justify-content: center;
 }
 
+.desktopnav ul {
+  display: flex;
+  list-style: none;
+}
+
+.desktopnav ul li {
+  margin-right: 30px;
+}
+
+.stickimg {
+  position: absolute;
+  margin-top: 23px;
+}
+
 @media screen and (min-width: 768px) {
   .artdeco1 {
     visibility: hidden;
+  }
+
+  .desktopnav {
+    visibility: visible;
+    padding-bottom: 17px;
+  }
+
+  .header1 {
+    margin-top: -52px;
   }
 }
