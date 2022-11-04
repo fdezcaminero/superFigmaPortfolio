@@ -536,6 +536,23 @@ textarea {
     display: none;
   }
 
+  .getstartedLabel {
+    font-size: 110px;
+    font-weight: bold;
+  }
+
+/* 
+  .bottomDecoBig {
+    background-image: url(../resources/image-geometry_6.svg);
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: flex-end;
+    padding-bottom: 77px;
+    width: 115px;
+    left: 2px;
+    position: absolute;
+  } */
+
 /* 
   .crazyParagraph {
     width: 484px;
