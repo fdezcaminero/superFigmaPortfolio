@@ -41,6 +41,11 @@
   margin-bottom: 15px;
 }
 
+.dflex3 {
+  display: flex;
+  justify-content: flex-end;
+}
+
 .margRight {
   margin-right: 18px;
 }
@@ -458,6 +463,17 @@ textarea {
   margin-top: 23px;
 }
 
+.artdeco2 {
+  visibility: hidden;
+}
+
+.dottedDeco {
+  background-image: url(../resources/image_dots.png);
+  background-repeat: no-repeat;
+  height: 175px;
+  visibility: hidden;
+}
+
 @media screen and (min-width: 768px) {
   .artdeco1 {
     visibility: hidden;
@@ -471,4 +487,58 @@ textarea {
   .header1 {
     margin-top: -52px;
   }
+
+  .artdeco2 {
+    background-image: url(../resources/Thur.png);
+    background-repeat: no-repeat;
+    padding-bottom: 164px;
+    height: 877.09px;
+    visibility: visible;
+    position: relative;
+    width: 702px;
+  }
+
+  .textdeco1 {
+    font-size: 110px;
+  }
+
+  .centerSection {
+    margin-top: 188px;
+  }
+
+  .middleDeco {
+    display: none;
+  }
+
+  .dottedDeco {
+    visibility: visible;
+  }
+
+  .aboutSection {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+
+
+  .blueRectangle {
+    width: 289px;
+  }
+
+  .redRectangle {
+    width: 289px;
+  }
+
+  .yellowRectangle {
+    width: 289px;
+  }
+
+  .dispNone {
+    display: none;
+  }
+
+/* 
+  .crazyParagraph {
+    width: 484px;
+    padding-bottom: 7px;
+  } */
 }
