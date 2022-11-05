@@ -71,6 +71,11 @@ nav {
   font-size: 50px;
 }
 
+.textdeco1:hover {
+  transform: scale(1.1);
+  transition-duration: 2s;
+}
+
 .textdeco2 {
   color: #1a2236;
   margin-top: 35px;
@@ -111,6 +116,7 @@ nav {
   color: white;
   margin-bottom: 17px;
   border-width: 1px 1px 1px 1px;
+  animation: button1Animation 3s;
 }
 
 .button1:hover {
@@ -124,6 +130,13 @@ nav {
   background: white;
   border-width: 2px 2px 2px 2px;
   border-color: #1a2236;
+}
+
+@keyframes button1Animation {
+  50% {
+    transform: scale(1.04);
+    box-shadow: 10px 10px #1a22362d;
+  }
 }
 
 .centerSection {
