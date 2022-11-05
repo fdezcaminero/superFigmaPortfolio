@@ -552,4 +552,55 @@ textarea {
     font-size: 110px;
     font-weight: bold;
   }
+
+  .myTechnologies {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .margTop1 {
+    margin-top: 0;
+  }
+
+  .margTop2 {
+    margin-top: 0;
+  }
+
+  .yellowRectangle {
+    margin-top: 0;
+  }
+
+  .marginleft17 {
+    margin-left: 0;
+  }
+
+  .getstartedLabel {
+    text-align: center;
+  }
+
+  .bigDeco {
+    background: url(../resources/image-geometry_6.svg) left top no-repeat, url(../resources/image-geometry_7.svg) right bottom no-repeat #f9f9fa;
+  }
+
+  .blueBox2 {
+    display: flex;
+    height: 123px;
+  }
+
+  .bottomParagraph {
+    margin-left: 349px;
+    width: 50%;
+  }
+
+  .dflex4 {
+    display: flex;
+  }
+
+  .formBox2 {
+    width: 542px;
+  }
+
+  input {
+    width: 254px;
+  }
 }
