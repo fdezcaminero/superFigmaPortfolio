@@ -594,6 +594,8 @@ textarea {
 
   .dflex4 {
     display: flex;
+    justify-content: space-between;
+    width: 542px;
   }
 
   .formBox2 {
@@ -602,5 +604,20 @@ textarea {
 
   input {
     width: 254px;
+  }
+
+  .formBox2-label {
+    display: block;
+    font-family: PoppinsLight, sans-serif;
+    color: #7D7C84;
+  }
+
+  .crazylabel {
+    color: #7D7C84;
+    top: -16px;
+  }
+
+  .formTop {
+    margin-top: 55px;
   }
 }
