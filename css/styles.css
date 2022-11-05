@@ -41,6 +41,11 @@
   margin-bottom: 15px;
 }
 
+.dflex3 {
+  display: flex;
+  justify-content: flex-end;
+}
+
 .margRight {
   margin-right: 18px;
 }
@@ -64,6 +69,11 @@ nav {
   font-weight: 400;
   font-family: 'Playfair Display', serif;
   font-size: 50px;
+}
+
+.textdeco1:hover {
+  transform: scale(1.1);
+  transition-duration: 2s;
 }
 
 .textdeco2 {
@@ -106,6 +116,7 @@ nav {
   color: white;
   margin-bottom: 17px;
   border-width: 1px 1px 1px 1px;
+  animation: button1Animation 3s;
 }
 
 .button1:hover {
@@ -119,6 +130,13 @@ nav {
   background: white;
   border-width: 2px 2px 2px 2px;
   border-color: #1a2236;
+}
+
+@keyframes button1Animation {
+  50% {
+    transform: scale(1.04);
+    box-shadow: 10px 10px #1a22362d;
+  }
 }
 
 .centerSection {
@@ -365,6 +383,11 @@ footer ul {
   position: absolute;
 }
 
+.desktopnav ul {
+  display: flex;
+  list-style: none;
+}
+
 .getstarted ul {
   list-style: none;
   padding-left: 0;
@@ -426,4 +449,107 @@ textarea {
 
 .socialmediaFontsize {
   font-size: 25px;
+}
+
+.desktopnav {
+  visibility: hidden;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: right;
+  color: #1a2236;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: lightgray;
+  display: flex;
+  justify-content: center;
+}
+
+.desktopnav ul li {
+  margin-right: 30px;
+}
+
+.stickimg {
+  position: absolute;
+  margin-top: 23px;
+}
+
+.artdeco2 {
+  visibility: hidden;
+}
+
+.dottedDeco {
+  background-image: url(../resources/image_dots.png);
+  background-repeat: no-repeat;
+  height: 175px;
+  visibility: hidden;
+}
+
+@media screen and (min-width: 768px) {
+  .artdeco1 {
+    visibility: hidden;
+  }
+
+  .desktopnav {
+    visibility: visible;
+    padding-bottom: 17px;
+  }
+
+  .header1 {
+    margin-top: -52px;
+  }
+
+  .artdeco2 {
+    background-image: url(../resources/Thur.png);
+    background-repeat: no-repeat;
+    padding-bottom: 164px;
+    height: 877.09px;
+    visibility: visible;
+    position: relative;
+    width: 702px;
+  }
+
+  .textdeco1 {
+    font-size: 110px;
+  }
+
+  .centerSection {
+    margin-top: 188px;
+  }
+
+  .middleDeco {
+    display: none;
+  }
+
+  .dottedDeco {
+    visibility: visible;
+  }
+
+  .aboutSection {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+
+  .blueRectangle {
+    width: 289px;
+  }
+
+  .redRectangle {
+    width: 289px;
+  }
+
+  .yellowRectangle {
+    width: 289px;
+  }
+
+  .dispNone {
+    display: none;
+  }
+
+  .getstartedLabel {
+    font-size: 110px;
+    font-weight: bold;
+  }
 }
