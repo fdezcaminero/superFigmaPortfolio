@@ -487,6 +487,10 @@ textarea {
   visibility: hidden;
 }
 
+.dflex5 {
+  display: none;
+}
+
 @media screen and (min-width: 768px) {
   .artdeco1 {
     visibility: hidden;
@@ -619,5 +623,22 @@ textarea {
 
   .formTop {
     margin-top: 55px;
+  }
+
+  .dflex2 {
+    margin-top: 47px;
+    margin-right: 100px;
+  }
+
+  .dflex5 {
+    display: flex;
+    margin-top: 47px;
+    margin-left: 70px;
+  }
+
+  .tealimg {
+    height: 35px;
+    width: 24px;
+    margin-left: 15px;
   }
 }
