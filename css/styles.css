@@ -383,6 +383,11 @@ footer ul {
   position: absolute;
 }
 
+.desktopnav ul {
+  display: flex;
+  list-style: none;
+}
+
 .getstarted ul {
   list-style: none;
   padding-left: 0;
@@ -462,11 +467,6 @@ textarea {
   justify-content: center;
 }
 
-.desktopnav ul {
-  display: flex;
-  list-style: none;
-}
-
 .desktopnav ul li {
   margin-right: 30px;
 }
@@ -532,7 +532,6 @@ textarea {
     flex-direction: row-reverse;
   }
 
-
   .blueRectangle {
     width: 289px;
   }
@@ -553,22 +552,4 @@ textarea {
     font-size: 110px;
     font-weight: bold;
   }
-
-/* 
-  .bottomDecoBig {
-    background-image: url(../resources/image-geometry_6.svg);
-    background-repeat: no-repeat;
-    display: flex;
-    justify-content: flex-end;
-    padding-bottom: 77px;
-    width: 115px;
-    left: 2px;
-    position: absolute;
-  } */
-
-/* 
-  .crazyParagraph {
-    width: 484px;
-    padding-bottom: 7px;
-  } */
 }
