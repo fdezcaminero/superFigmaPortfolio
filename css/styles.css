@@ -895,4 +895,28 @@ textarea {
     top: 2324px;
     left: 799px;
   }
+
+  .handCursor {
+    display: block;
+    position: absolute;
+    background-image: url(../resources/handCursor.svg);
+    background-repeat: no-repeat;
+    height: 53px;
+    width: 41px;
+    top: 1575px;
+    right: 398px;
+    z-index: 30;
+  }
+
+  .handCursor2 {
+    display: block;
+    position: absolute;
+    background-image: url(../resources/handCursor.svg);
+    background-repeat: no-repeat;
+    height: 53px;
+    width: 41px;
+    top: 1828px;
+    z-index: 30;
+    right: 51px;
+  }
 }
