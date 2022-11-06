@@ -204,6 +204,17 @@ nav {
   background-color: #1a2236;
 }
 
+.projectNameX {
+  font-family: PoppinsLight, sans-serif;
+  font-size: 20px;
+  color: white;
+  padding-left: 25px;
+  margin-top: 20px;
+  margin-bottom: 12px;
+  background: rgba(0,0,0,0);
+}
+
+
 .paragraph1 {
   color: #1a2236;
   height: 80px;
@@ -487,6 +498,13 @@ textarea {
   display: none;
 }
 
+.dottedDeco2 {
+  background-image: url(../resources/image_dots.png);
+  background-repeat: no-repeat;
+  height: 175px;
+  display: none;
+}
+
 .dflex5 {
   display: none;
 }
@@ -541,6 +559,14 @@ textarea {
     position: absolute;
     top: 766px;
     right: 663px;
+  }
+
+  .dottedDeco2 {
+    display: inline-block;
+    width: 213px;
+    position: absolute;
+    top: 945px;
+    right: 933px;
   }
 
   .aboutSection {
@@ -702,10 +728,47 @@ textarea {
   }
 
   .bigLaptop {
+    position: absolute;
+    right: 0;
     width: 960px;
   }
 
   .grayLaptop {
     width: 465px;
+  }
+
+  .projectsrotate {
+    font-size: 110px;
+    transform: rotate(-90deg);
+    position: absolute;
+  }
+
+  .bigButton1 {
+    width: 254px;
+  }
+
+  .bigBlueSquare {
+    position: absolute;
+    width: 960px;
+    height: 353px;
+    right: 0;
+    top: 1146px;
+    background: rgba(26, 34, 54, 0.95);
+    backdrop-filter: blur(24px);
+    z-index: 10;
+  }
+
+  .projectNameX {
+    font-family: PoppinsSemiBold, sans-serif;
+    font-size: 60px;
+    color: white;
+    padding-left: 25px;
+    margin-top: 20px;
+    margin-bottom: 12px;
+    background-color: #1a2236;
+    position: absolute;
+    top: 230px;
+    z-index: 20;
+    left: 40px;
   }
 }
