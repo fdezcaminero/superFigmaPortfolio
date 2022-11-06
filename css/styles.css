@@ -225,9 +225,7 @@ nav {
   padding-left: 25px;
   margin-top: 20px;
   margin-bottom: 12px;
-  /* background: rgba(0,0,0,0); */
 }
-
 
 .paragraph1 {
   color: #1a2236;
@@ -586,7 +584,7 @@ textarea {
   .aboutSection {
     display: flex;
     flex-direction: row-reverse;
-    margin-top: 1800px;;
+    margin-top: 1800px;
   }
 
   .blueRectangle {
@@ -597,10 +595,6 @@ textarea {
     width: 289px;
   }
 
-  .yellowRectangle {
-    width: 289px;
-  }
-
   .dispNone {
     display: none;
   }
@@ -608,6 +602,7 @@ textarea {
   .getstartedLabel {
     font-size: 110px;
     font-weight: bold;
+    text-align: center;
   }
 
   .myTechnologies {
@@ -627,14 +622,11 @@ textarea {
   .yellowRectangle {
     margin-top: 0;
     margin-top: -27px;
+    width: 289px;
   }
 
   .marginleft17 {
     margin-left: 0;
-  }
-
-  .getstartedLabel {
-    text-align: center;
   }
 
   .bigDeco {
@@ -672,11 +664,11 @@ textarea {
   .formBox2-label {
     display: block;
     font-family: PoppinsLight, sans-serif;
-    color: #7D7C84;
+    color: #7d7c84;
   }
 
   .crazylabel {
-    color: #7D7C84;
+    color: #7d7c84;
     top: -16px;
   }
 
