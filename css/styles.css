@@ -586,7 +586,7 @@ textarea {
   .aboutSection {
     display: flex;
     flex-direction: row-reverse;
-    margin-top: 537px;
+    margin-top: 1800px;;
   }
 
   .blueRectangle {
@@ -738,17 +738,22 @@ textarea {
   }
 
   .ABLaptop {
+    position: absolute;
+    top: 2034px;
     width: 800px;
   }
 
   .MacBook {
     position: absolute;
-    top: 1705px;
+    top: 1765px;
     width: 465px;
   }
 
   .yellowLaptop {
     width: 465px;
+    position: absolute;
+    top: 2500px;
+    left: 948px;
   }
 
   .bigLaptop {
@@ -835,5 +840,59 @@ textarea {
     right: 0;
     top: 1731px;
     z-index: 10;
+  }
+
+  .dotsAndGeo {
+    display: block;
+    position: absolute;
+    background-image: url(../resources/image-geometry_2.svg);
+    background-repeat: no-repeat;
+    height: 350px;
+    width: 511px;
+    top: 1670px;
+    right: 465px;
+  }
+
+  .roundDeco {
+    display: block;
+    position: absolute;
+    background-image: url(../resources/image-geometry_5.svg);
+    background-repeat: no-repeat;
+    height: 125px;
+    width: 212px;
+    top: 2500px;
+  }
+
+  .roundDeco2 {
+    display: block;
+    position: absolute;
+    background-image: url(../resources/image-geometry_4.svg);
+    background-repeat: no-repeat;
+    height: 88px;
+    width: 88px;
+    top: 2500px;
+    left: 861px;
+  }
+
+  .squareDeco {
+    display: block;
+    position: absolute;
+    background-image: url(../resources/Group83.svg);
+    background-repeat: no-repeat;
+    height: 176px;
+    width: 351px;
+    top: 2182px;
+    right: 0;
+  }
+
+  .squareDeco2 {
+    display: block;
+    position: absolute;
+    background-image: url(../resources/redSquare.svg);
+    background-repeat: no-repeat;
+    height: 176px;
+    width: 176px;
+    top: 2324px;
+    left: 799px;
   }
 }
