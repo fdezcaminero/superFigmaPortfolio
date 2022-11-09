@@ -751,7 +751,7 @@ textarea {
     width: 465px;
     position: absolute;
     top: 2500px;
-    left: 948px;
+    right: 434px;
   }
 
   .bigLaptop {
@@ -869,7 +869,7 @@ textarea {
     height: 88px;
     width: 88px;
     top: 2500px;
-    left: 861px;
+    right: 898px;
   }
 
   .squareDeco {
@@ -891,7 +891,7 @@ textarea {
     height: 176px;
     width: 176px;
     top: 2324px;
-    left: 799px;
+    right: 874px;
   }
 
   .handCursor {
