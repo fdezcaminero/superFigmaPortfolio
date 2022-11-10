@@ -739,6 +739,7 @@ textarea {
     position: absolute;
     top: 2034px;
     width: 800px;
+    max-width: 100%;
   }
 
   .MacBook {
