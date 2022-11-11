@@ -42,7 +42,7 @@
 }
 
 .dflex3 {
-  display: flex;
+  display: block;
 }
 
 .margRight {
@@ -78,7 +78,6 @@ nav {
 .textdeco2 {
   color: #1a2236;
   margin-top: 35px;
-  margin-left: 16px;
   font-weight: 400;
   font-family: 'Playfair Display', serif;
   font-size: 50px;
@@ -188,7 +187,7 @@ nav {
 }
 
 .fullWidth {
-  margin-top: -2px;
+  margin-top: -4px;
   margin-bottom: -6px;
   width: 100%;
 }
@@ -534,6 +533,21 @@ textarea {
 }
 
 @media screen and (min-width: 768px) {
+  .dflex3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+  }
+
+  .centerSection {
+    margin: 0 auto;
+    max-width: 562px;
+  }
+
+  .text1width {
+    min-width: 484px;
+  }
+
   .artdeco1 {
     visibility: hidden;
   }
@@ -550,21 +564,16 @@ textarea {
   .artdeco2 {
     background-image: url(../resources/Thur.png);
     background-repeat: no-repeat;
-    padding-bottom: 164px;
     height: 877.09px;
     visibility: visible;
-    position: absolute;
+    position: relative;
     width: 702px;
     right: 0;
   }
 
   .textdeco1 {
-    font-size: 110px;
-  }
-
-  .centerSection {
-    margin-top: 188px;
-    margin-left: 150px;
+    font-size: 86px;
+    padding-top: 200px;
   }
 
   .middleDeco {
@@ -573,10 +582,10 @@ textarea {
 
   .dottedDeco {
     display: inline-block;
-    width: 213px;
+    width: 175px;
     position: absolute;
-    top: 766px;
-    right: 663px;
+    bottom: 0;
+    left: -175px;
   }
 
   .dottedDeco2 {
@@ -771,6 +780,8 @@ textarea {
     transform: rotate(-90deg);
     position: absolute;
     top: 1224px;
+    right: 1065px;
+    z-index: 999;
   }
 
   .bigButton1 {
@@ -829,9 +840,7 @@ textarea {
     left: 37px;
   }
 
-  .dgrid {
-    margin-top: 168px;
-  }
+  .dgrid {}
 
   .bigSmall {
     display: flex;
