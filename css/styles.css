@@ -593,7 +593,7 @@ textarea {
     width: 213px;
     position: absolute;
     top: 1111px;
-    right: 933px;
+    right: 873px;
   }
 
   .aboutSection {
@@ -742,7 +742,7 @@ textarea {
     position: absolute;
     top: 1650px;
     right: 0;
-    width: 465px;
+    width: 385px;
   }
 
   .ABLaptop {
@@ -762,17 +762,17 @@ textarea {
     width: 465px;
     position: absolute;
     top: 2500px;
-    right: 434px;
+    left: 800px;
   }
 
   .bigLaptop {
     position: absolute;
     right: 0;
-    width: 960px;
+    width: 900px;
   }
 
   .grayLaptop {
-    width: 465px;
+    width: 385px;
   }
 
   .projectsrotate {
@@ -780,7 +780,7 @@ textarea {
     transform: rotate(-90deg);
     position: absolute;
     top: 1224px;
-    right: 1065px;
+    right: 1030px;
     z-index: 999;
   }
 
@@ -790,7 +790,7 @@ textarea {
 
   .bigBlueSquare {
     position: absolute;
-    width: 960px;
+    width: 900px;
     height: 353px;
     right: 0;
     top: 1317px;
@@ -854,10 +854,10 @@ textarea {
     position: absolute;
     background-image: url(../resources/image-geometry_2.svg);
     background-repeat: no-repeat;
-    height: 350px;
+    height: 362px;
     width: 511px;
     top: 1670px;
-    right: 465px;
+    right: 385px;
   }
 
   .roundDeco {
@@ -877,8 +877,8 @@ textarea {
     background-repeat: no-repeat;
     height: 88px;
     width: 88px;
-    top: 2500px;
-    right: 898px;
+    top: 2497px;
+    left: 713px;
   }
 
   .squareDeco {
@@ -888,7 +888,7 @@ textarea {
     background-repeat: no-repeat;
     height: 176px;
     width: 351px;
-    top: 2182px;
+    top: 2134px;
     right: 0;
   }
 
@@ -899,8 +899,8 @@ textarea {
     background-repeat: no-repeat;
     height: 176px;
     width: 176px;
-    top: 2324px;
-    right: 874px;
+    top: 2322px;
+    left: 800px;
   }
 
   .handCursor {
