@@ -840,8 +840,6 @@ textarea {
     left: 37px;
   }
 
-  .dgrid {}
-
   .bigSmall {
     display: flex;
     flex-direction: column-reverse;
