@@ -42,8 +42,7 @@
 }
 
 .dflex3 {
-  display: flex;
-  justify-content: flex-end;
+  display: block;
 }
 
 .margRight {
@@ -79,7 +78,6 @@ nav {
 .textdeco2 {
   color: #1a2236;
   margin-top: 35px;
-  margin-left: 16px;
   font-weight: 400;
   font-family: 'Playfair Display', serif;
   font-size: 50px;
@@ -145,7 +143,7 @@ nav {
 
 .crazyParagraph {
   color: #1a2236;
-  width: 90%;
+  width: 70%;
   height: 80px;
   margin-top: 21px;
   margin-left: 16px;
@@ -171,6 +169,13 @@ nav {
   padding-left: 27px;
 }
 
+.greenulX {
+  display: flex;
+  justify-content: flex-start;
+  list-style: none;
+  padding-left: 27px;
+}
+
 .greenli {
   font-size: 14px;
   color: #1a2236;
@@ -182,12 +187,19 @@ nav {
 }
 
 .fullWidth {
-  margin-top: -2px;
+  margin-top: -4px;
   margin-bottom: -6px;
   width: 100%;
 }
 
 .blueBox {
+  background: #1a2236;
+  display: grid;
+  justify-items: flex-start;
+  width: 100%;
+}
+
+.bigBlueBox {
   background: #1a2236;
   display: grid;
   justify-items: flex-start;
@@ -202,6 +214,15 @@ nav {
   margin-top: 20px;
   margin-bottom: 12px;
   background-color: #1a2236;
+}
+
+.projectNameX {
+  font-family: PoppinsLight, sans-serif;
+  font-size: 20px;
+  color: white;
+  padding-left: 25px;
+  margin-top: 20px;
+  margin-bottom: 12px;
 }
 
 .paragraph1 {
@@ -484,10 +505,49 @@ textarea {
   background-image: url(../resources/image_dots.png);
   background-repeat: no-repeat;
   height: 175px;
-  visibility: hidden;
+  display: none;
+}
+
+.dottedDeco2 {
+  background-image: url(../resources/image_dots.png);
+  background-repeat: no-repeat;
+  height: 175px;
+  display: none;
+}
+
+.dflex5 {
+  display: none;
+}
+
+.tealndots {
+  display: none;
+}
+
+.dispNoneMobile {
+  display: none;
+}
+
+.aboutRight {
+  margin-left: 75px;
+  margin-right: 97px;
 }
 
 @media screen and (min-width: 768px) {
+  .dflex3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+  }
+
+  .centerSection {
+    margin: 0 auto;
+    max-width: 562px;
+  }
+
+  .text1width {
+    min-width: 484px;
+  }
+
   .artdeco1 {
     visibility: hidden;
   }
@@ -504,19 +564,16 @@ textarea {
   .artdeco2 {
     background-image: url(../resources/Thur.png);
     background-repeat: no-repeat;
-    padding-bottom: 164px;
     height: 877.09px;
     visibility: visible;
     position: relative;
     width: 702px;
+    right: 0;
   }
 
   .textdeco1 {
-    font-size: 110px;
-  }
-
-  .centerSection {
-    margin-top: 188px;
+    font-size: 86px;
+    padding-top: 200px;
   }
 
   .middleDeco {
@@ -524,12 +581,25 @@ textarea {
   }
 
   .dottedDeco {
-    visibility: visible;
+    display: inline-block;
+    width: 175px;
+    position: absolute;
+    bottom: 0;
+    left: -175px;
+  }
+
+  .dottedDeco2 {
+    display: inline-block;
+    width: 213px;
+    position: absolute;
+    top: 1111px;
+    right: 873px;
   }
 
   .aboutSection {
     display: flex;
     flex-direction: row-reverse;
+    margin-top: 1800px;
   }
 
   .blueRectangle {
@@ -540,10 +610,6 @@ textarea {
     width: 289px;
   }
 
-  .yellowRectangle {
-    width: 289px;
-  }
-
   .dispNone {
     display: none;
   }
@@ -551,5 +617,317 @@ textarea {
   .getstartedLabel {
     font-size: 110px;
     font-weight: bold;
+    text-align: center;
+  }
+
+  .myTechnologies {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    margin-left: 135px;
+  }
+
+  .margTop1 {
+    margin-top: 0;
+  }
+
+  .margTop2 {
+    margin-top: 0;
+  }
+
+  .yellowRectangle {
+    margin-top: 0;
+    margin-top: -27px;
+    width: 289px;
+  }
+
+  .marginleft17 {
+    margin-left: 0;
+  }
+
+  .bigDeco {
+    background: url(../resources/image-geometry_6.svg) left top no-repeat, url(../resources/image-geometry_7.svg) right bottom no-repeat #f9f9fa;
+  }
+
+  .bigBlueBox {
+    background-color: transparent;
+  }
+
+  .blueBox2 {
+    display: flex;
+    height: 123px;
+  }
+
+  .bottomParagraph {
+    margin-left: 349px;
+    width: 50%;
+  }
+
+  .dflex4 {
+    display: flex;
+    justify-content: space-between;
+    width: 542px;
+  }
+
+  .formBox2 {
+    width: 542px;
+  }
+
+  input {
+    width: 254px;
+  }
+
+  .formBox2-label {
+    display: block;
+    font-family: PoppinsLight, sans-serif;
+    color: #7d7c84;
+  }
+
+  .crazylabel {
+    color: #7d7c84;
+    top: -16px;
+  }
+
+  .formTop {
+    margin-top: 55px;
+  }
+
+  .dflex2 {
+    margin-top: 47px;
+    margin-right: 100px;
+  }
+
+  .dflex5 {
+    display: flex;
+    margin-top: 47px;
+    margin-left: 70px;
+  }
+
+  .tealimg {
+    height: 35px;
+    width: 24px;
+    margin-left: 15px;
+  }
+
+  .textdeco3 {
+    font-size: 110px;
+  }
+
+  .getmyCV {
+    height: 70px;
+    width: 254px;
+  }
+
+  .tealndots {
+    display: inline-block;
+  }
+
+  .tealndots1 {
+    position: relative;
+    top: 117px;
+    left: 50px;
+  }
+
+  .tealndots2 {
+    position: relative;
+    left: 45px;
+    top: -56px;
+  }
+
+  .getstarted {
+    margin-top: 200px;
+  }
+
+  .pinkLaptop {
+    position: absolute;
+    top: 1650px;
+    right: 0;
+    width: 385px;
+  }
+
+  .ABLaptop {
+    position: absolute;
+    top: 2034px;
+    width: 800px;
+    max-width: 100%;
+  }
+
+  .MacBook {
+    position: absolute;
+    top: 1765px;
+    width: 465px;
+  }
+
+  .yellowLaptop {
+    width: 465px;
+    position: absolute;
+    top: 2500px;
+    left: 800px;
+  }
+
+  .bigLaptop {
+    position: absolute;
+    right: 0;
+    width: 900px;
+  }
+
+  .grayLaptop {
+    width: 385px;
+  }
+
+  .projectsrotate {
+    font-size: 110px;
+    transform: rotate(-90deg);
+    position: absolute;
+    top: 1224px;
+    right: 1030px;
+    z-index: 999;
+  }
+
+  .bigButton1 {
+    width: 254px;
+  }
+
+  .bigBlueSquare {
+    position: absolute;
+    width: 900px;
+    height: 353px;
+    right: 0;
+    top: 1317px;
+    background: rgba(26, 34, 54, 0.95);
+    backdrop-filter: blur(24px);
+    z-index: 10;
+  }
+
+  .projectNameX {
+    font-family: PoppinsSemiBold, sans-serif;
+    font-size: 60px;
+    color: white;
+    padding-left: 25px;
+    margin-top: 20px;
+    margin-bottom: 12px;
+    background-color: transparent;
+    position: absolute;
+    top: 230px;
+    z-index: 20;
+    left: 40px;
+  }
+
+  .bigProjectButton {
+    position: absolute;
+    top: 410px;
+    z-index: 20;
+    left: 38px;
+    background: white;
+    color: #1a2236;
+    width: 212px;
+  }
+
+  .bigProjectButton:hover {
+    color: white;
+    background: #1a2236;
+    border: 2px solid white;
+  }
+
+  .greenulX {
+    display: flex;
+    justify-content: flex-start;
+    list-style: none;
+    padding-left: 27px;
+    position: absolute;
+    top: 357px;
+    z-index: 20;
+    left: 37px;
+  }
+
+  .bigSmall {
+    display: flex;
+    flex-direction: column-reverse;
+    position: absolute;
+    right: 0;
+    top: 1731px;
+    z-index: 10;
+  }
+
+  .dotsAndGeo {
+    display: block;
+    position: absolute;
+    background-image: url(../resources/image-geometry_2.svg);
+    background-repeat: no-repeat;
+    height: 362px;
+    width: 511px;
+    top: 1670px;
+    right: 385px;
+  }
+
+  .roundDeco {
+    display: block;
+    position: absolute;
+    background-image: url(../resources/image-geometry_5.svg);
+    background-repeat: no-repeat;
+    height: 125px;
+    width: 212px;
+    top: 2500px;
+  }
+
+  .roundDeco2 {
+    display: block;
+    position: absolute;
+    background-image: url(../resources/image-geometry_4.svg);
+    background-repeat: no-repeat;
+    height: 88px;
+    width: 88px;
+    top: 2497px;
+    left: 713px;
+  }
+
+  .squareDeco {
+    display: block;
+    position: absolute;
+    background-image: url(../resources/Group83.svg);
+    background-repeat: no-repeat;
+    height: 176px;
+    width: 351px;
+    top: 2134px;
+    right: 0;
+  }
+
+  .squareDeco2 {
+    display: block;
+    position: absolute;
+    background-image: url(../resources/redSquare.svg);
+    background-repeat: no-repeat;
+    height: 176px;
+    width: 176px;
+    top: 2322px;
+    left: 800px;
+  }
+
+  .handCursor {
+    display: block;
+    position: absolute;
+    background-image: url(../resources/handCursor.svg);
+    background-repeat: no-repeat;
+    height: 53px;
+    width: 41px;
+    top: 1575px;
+    right: 398px;
+    z-index: 30;
+  }
+
+  .handCursor2 {
+    display: block;
+    position: absolute;
+    background-image: url(../resources/handCursor.svg);
+    background-repeat: no-repeat;
+    height: 53px;
+    width: 41px;
+    top: 1828px;
+    z-index: 30;
+    right: 51px;
+  }
+
+  .topPadding {
+    padding-top: 160px;
   }
 }
