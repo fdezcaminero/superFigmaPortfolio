@@ -16,6 +16,10 @@
 
 https://fdezcaminero.github.io/superFigmaPortfolio/
 
+## Loom Walkthrough
+
+* An audiovisual outline of my portfolio and what it was like to build it.
+
 
 ## Author
 
