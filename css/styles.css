@@ -532,6 +532,10 @@ textarea {
   margin-right: 97px;
 }
 
+#mobileMenu {
+  display: none;
+}
+
 @media screen and (min-width: 768px) {
   .dflex3 {
     display: flex;
