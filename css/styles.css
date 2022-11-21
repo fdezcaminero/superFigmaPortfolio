@@ -536,6 +536,23 @@ textarea {
   display: none;
 }
 
+.menuDeco {
+  background: url(../resources/Group98.svg) top left no-repeat;
+  height: 74px;
+  width: 111px;
+}
+
+.menuDeco2 {
+  background-image: url(../resources/MaskGroup.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 0;
+  padding-top: 25%;
+  position: absolute;
+  bottom: 0;
+}
+
 @media screen and (min-width: 768px) {
   .dflex3 {
     display: flex;
