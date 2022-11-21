@@ -18,7 +18,9 @@ https://fdezcaminero.github.io/superFigmaPortfolio/
 
 ## Loom Walkthrough
 
-* An audiovisual outline of my portfolio and what it was like to build it.
+* An audiovisual outline of my portfolio and what it was like to build it:
+
+https://www.loom.com/share/99442e718273402dab4a212931f5d401
 
 
 ## Author
