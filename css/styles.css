@@ -575,6 +575,26 @@ textarea {
   margin-top: 120px;
 }
 
+.dottedImage {
+  background-image: url(../resources/Group50.svg);
+  background-repeat: no-repeat;
+  height: 40px;
+  width: 40px;
+  position: absolute;
+  right: 80px;
+}
+
+.dottedImage2 {
+  background-image: url(../resources/Group50.svg);
+  background-repeat: no-repeat;
+  height: 40px;
+  width: 40px;
+  position: absolute;
+  left: 112px;
+  bottom: 274px;
+}
+
+
 @media screen and (min-width: 768px) {
   .dflex3 {
     display: flex;
