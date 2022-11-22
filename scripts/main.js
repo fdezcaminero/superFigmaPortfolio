@@ -1,7 +1,4 @@
 function coolMenu() {
-    let x = document.getElementsByTagName("body")[0];
-    x.style.backgroundColor = "#e5e5e5";
-
   let webS = document.querySelector('#webSite');
   webS.style.display = "none";
 
@@ -10,9 +7,6 @@ function coolMenu() {
 }
 
 function closeMenu() {
-  let x = document.getElementsByTagName("body")[0];
-  x.style.backgroundColor = "#fff";
-
   let webS = document.querySelector('#webSite');
   webS.style.display = "block";
 
