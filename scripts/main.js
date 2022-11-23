@@ -1,15 +1,15 @@
 function coolMenu() {
-  let webS = document.querySelector('#webSite');
-  webS.style.display = "none";
+  const webS = document.querySelector('#webSite');
+  webS.style.display = 'none';
 
-  let mobileM = document.querySelector('#mobileMenu');
-  mobileM.style.display = "block";
+  const mobileM = document.querySelector('#mobileMenu');
+  mobileM.style.display = 'block';
 }
 
 function closeMenu() {
-  let webS = document.querySelector('#webSite');
-  webS.style.display = "block";
+  const webS = document.querySelector('#webSite');
+  webS.style.display = 'block';
 
-  let mobileM = document.querySelector('#mobileMenu');
-  mobileM.style.display = "none";
+  const mobileM = document.querySelector('#mobileMenu');
+  mobileM.style.display = 'none';
 }
