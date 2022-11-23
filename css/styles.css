@@ -532,6 +532,85 @@ textarea {
   margin-right: 97px;
 }
 
+#mobileMenu {
+  display: none;
+}
+
+.menuDeco {
+  background: url(../resources/Group98.svg) top left no-repeat;
+  height: 74px;
+  width: 111px;
+}
+
+.menuDeco2 {
+  background-image: url(../resources/MaskGroup.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 0;
+  padding-top: 25%;
+  position: absolute;
+  bottom: 0;
+}
+
+.mobileButton {
+  border: none;
+  background-color: white;
+}
+
+.mobileCross {
+  border: none;
+  background-color: white;
+  position: absolute;
+  right: 15px;
+  top: 27px;
+}
+
+.mobileMenuUL {
+  font-family: PoppinsRegular, sans-serif;
+  line-height: 300%;
+  text-align: center;
+  list-style-type: none;
+  font-size: 30px;
+  margin-top: 120px;
+}
+
+.dottedImage {
+  background-image: url(../resources/Group50.svg);
+  background-repeat: no-repeat;
+  height: 40px;
+  width: 40px;
+  position: absolute;
+  right: 80px;
+}
+
+.dottedImage2 {
+  background-image: url(../resources/Group50.svg);
+  background-repeat: no-repeat;
+  height: 40px;
+  width: 40px;
+  position: absolute;
+  left: 112px;
+  bottom: 274px;
+}
+
+.plainAnchor {
+  text-decoration: none;
+  color: black;
+}
+
+#mobilePopup {
+  display: none;
+}
+
+#desktopPopup {
+  display: none;
+}
+
+.whiteBoard {
+  background-image: url(../resources/whiteBoard.svg);
+}
+
 @media screen and (min-width: 768px) {
   .dflex3 {
     display: flex;

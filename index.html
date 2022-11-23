@@ -7,284 +7,321 @@
     <link rel="stylesheet" href="css/styles.css">
     <title>José Fernández-Caminero's Portfolio</title>
     <script src="https://kit.fontawesome.com/a12691952c.js" crossorigin="anonymous"></script>
+    <script src="scripts/main.js"></script>
 </head>
 <body>
-    <header class="header1">
-        <nav class="artdeco1">
-            <img class="burger" src="resources/ic_menu.svg" alt="Toolbar menu">
-        </nav>
-
-        <nav class="desktopnav">
-            <ul>
-                <li>Hello</li>
-                <img class="stickimg" src="resources/underlinestick.svg" alt="Underlining stick">
-                <li>Portfolio</li>
-                <li>About</li>
-                <li>Contact</li>
-            </ul>
-        </nav>
-    </header>
-
-    <div class="dflex3">
-        <section class="centerSection">
-            <h1 class="textdeco1 text1width">José Fernández-Caminero</h1>
+    <a id="Hello"></a>
+    <div id="webSite">
+        <header class="header1">
+            <nav class="artdeco1">
+                <button onclick="coolMenu()" class="mobileButton">
+                    <img class="burger" src="resources/ic_menu.svg" alt="Toolbar menu">
+                </button>
+            </nav>
     
-            <p class="crazyParagraph">I love Full-Stack Engineering and I can code websites that are both the most complex and the most efficient.</p>
+            <nav class="desktopnav">
+                <ul>
+                    <li>Hello</li>
+                    <img class="stickimg" src="resources/underlinestick.svg" alt="Underlining stick">
+                    <li>Portfolio</li>
+                    <li>About</li>
+                    <li>Contact</li>
+                </ul>
+            </nav>
+        </header>
     
-            <button class="button1 width90 bigButton1">Start collaboration</button>
-        </section>
+        <div class="dflex3">
+            <section class="centerSection">
+                <h1 class="textdeco1 text1width">José Fernández-Caminero</h1>
+        
+                <p class="crazyParagraph">I love Full-Stack Engineering and I can code websites that are both the most complex and the most efficient.</p>
+        
+                <button class="button1 width90 bigButton1">Start collaboration</button>
+            </section>
+        
+            <div class="artdeco2"></div>
     
-        <div class="artdeco2"></div>
-
-        <section class="dottedDeco"></section>
-    </div>
-
-    <div class="topPadding">
-        <section class="middleDeco"></section>
-    </div>
-
-    <h2 class="textdeco2 margBottom projectsrotate">Projects</h2>
-
-    <section class="dottedDeco2"></section>
-
-    <div class="bigBlueSquare"></div>
-
-    <section class="dgrid">
-        <img class="fullWidth bigLaptop" src="resources/Rectangle 21.png" alt="Laptop and other objects">
-        <div class="bigBlueBox bigLaptop">
-            <h2 class="projectNameX">Project name goes here</h2>
-            
-            <ul class="greenulX">
-                <li class="greenli">HTML/CSS</li>
-                <li class="greenli">Ruby on Rails</li>
-                <li class="greenli">JavaScript</li>
-            </ul>
-
-            <button class="button1 width65 buttonMargin1 bigProjectButton">See this project
-                <img src="resources/Union.png" alt="Cool (White) Arrow Pointing Right">
-                <img src="resources/Union2.svg" alt="Cool (Blue) Arrow Pointing Right">
-            </button>
-        </div>
-
-        <img class="fullWidth MacBook" src="resources/Rectangle 21(2).png" alt="Another laptop and other objects">
-        <div class="blueBox dispNone">
-            <h3 class="projectName">Project name goes here</h3>
-
-            <ul class="greenul">
-                <li class="greenli">HTML/CSS</li>
-                <li class="greenli">Ruby on Rails</li>
-                <li class="greenli">JavaScript</li>
-            </ul>
-
-            <button class="button1 width65 buttonMargin1">See this project
-                <img src="resources/Union.png" alt="Cool Arrow Pointing Right">
-                <img src="resources/Union2.svg" alt="Cool (Blue) Arrow Pointing Right">
-            </button>
-        </div>
-
-        <img class="fullWidth ABLaptop" src="resources/Rectangle 21(3).png" alt="Yet another laptop and other objects">
-        <div class="blueBox dispNone">
-            <h3 class="projectName">Project name goes here</h3>
-
-            <ul class="greenul">
-                <li class="greenli">HTML/CSS</li>
-                <li class="greenli">Ruby on Rails</li>
-                <li class="greenli">JavaScript</li>
-            </ul>
-
-            <button class="button1 width65 buttonMargin1">See this project
-                <img src="resources/Union.png" alt="Cooler Arrow Pointing Right">
-                <img src="resources/Union2.svg" alt="Cool (Blue) Arrow Pointing Right">
-            </button>
+            <section class="dottedDeco"></section>
         </div>
     
-        <img class="fullWidth yellowLaptop" src="resources/Rectangle 21(4).png" alt="Laptop and other objects">
-        <div class="blueBox dispNone">
-            <h3 class="projectName">Project name goes here</h3>
-
-            <ul class="greenul">
-                <li class="greenli">HTML/CSS</li>
-                <li class="greenli">Ruby on Rails</li>
-                <li class="greenli">JavaScript</li>
-            </ul>
-
-            <button class="button1 width65 buttonMargin1">See this project
-                <img src="resources/Union.png" alt="An Even Cooler Arrow Pointing Right">
-                <img src="resources/Union2.svg" alt="Cool (Blue) Arrow Pointing Right">
-            </button>
+        <div class="topPadding">
+            <section class="middleDeco"></section>
         </div>
-
-        <div class="dotsAndGeo dispNoneMobile"></div>
-
-        <div class="roundDeco dispNoneMobile"></div>
-
-        <div class="roundDeco2 dispNoneMobile"></div>
-
-        <div class="squareDeco dispNoneMobile"></div>
-
-        <div class="squareDeco2 dispNoneMobile"></div>
-
-        <div class="handCursor dispNoneMobile"></div>
-
-        <div class="handCursor2 dispNoneMobile"></div>
-
-        <div class="bigSmall">
-            <img class="fullWidth grayLaptop" src="resources/Rectangle 21(5).png" alt="Another laptop and other objects">
-            <div class="blueBox grayLaptop">
+    
+        <a id="Portfolio"></a>
+        <h2 class="textdeco2 margBottom projectsrotate">Projects</h2>
+    
+        <section class="dottedDeco2"></section>
+    
+        <div class="bigBlueSquare"></div>
+    
+        <section class="dgrid">
+            <img class="fullWidth bigLaptop" src="resources/Rectangle 21.png" alt="Laptop and other objects">
+            <div class="bigBlueBox bigLaptop">
+                <h2 class="projectNameX">Project name goes here</h2>
+                
+                <ul class="greenulX">
+                    <li class="greenli">HTML/CSS</li>
+                    <li class="greenli">Ruby on Rails</li>
+                    <li class="greenli">JavaScript</li>
+                </ul>
+    
+                <button onclick="projectMenu()" class="button1 width65 buttonMargin1 bigProjectButton">See this project
+                    <img src="resources/Union.png" alt="Cool (White) Arrow Pointing Right">
+                    <img src="resources/Union2.svg" alt="Cool (Blue) Arrow Pointing Right">
+                </button>
+            </div>
+    
+            <img class="fullWidth MacBook" src="resources/Rectangle 21(2).png" alt="Another laptop and other objects">
+            <div class="blueBox dispNone">
                 <h3 class="projectName">Project name goes here</h3>
-
+    
                 <ul class="greenul">
                     <li class="greenli">HTML/CSS</li>
                     <li class="greenli">Ruby on Rails</li>
                     <li class="greenli">JavaScript</li>
                 </ul>
-
+    
                 <button class="button1 width65 buttonMargin1">See this project
-                    <img src="resources/Union.png" alt="Cool (White) Arrow Pointing Right">
+                    <img src="resources/Union.png" alt="Cool Arrow Pointing Right">
                     <img src="resources/Union2.svg" alt="Cool (Blue) Arrow Pointing Right">
                 </button>
             </div>
-        </div>
-
-        <img class="fullWidth pinkLaptop" src="resources/Rectangle 21(6).png" alt="Picture of laptop and other objects">
-        <div class="blueBox dispNone">
-            <h3 class="projectName">Project name goes here</h3>
-
-            <ul class="greenul">
-                <li class="greenli">HTML/CSS</li>
-                <li class="greenli">Ruby on Rails</li>
-                <li class="greenli">JavaScript</li>
-            </ul>
-
-            <button class="button1 width65 buttonMargin1">See this project
-                <img src="resources/Union.png" alt="Yet An Even Cooler Arrow Pointing Right">
-                <img src="resources/Union2.svg" alt="Cool (Blue) Arrow Pointing Right">
-            </button>
-        </div>
-    </section>
-
-    <section class="aboutSection">
-        <div class="aboutRight">
-            <h2 class="textdeco3">About</h2>
-            
-            <p class="paragraph1">
-                I love to code. I think coding is where the arts and the sciences meet. It's the most natural activity for a renaissance person. imho
-            </p>
-            
-            <button class="button1 width90 getmyCV">
-                <div class="dflex">
-                    <p class="margRight">Get my CV</p>
-                    <img src="resources/ic_download.svg" alt="Downward Arrow">
+    
+            <img class="fullWidth ABLaptop" src="resources/Rectangle 21(3).png" alt="Yet another laptop and other objects">
+            <div class="blueBox dispNone">
+                <h3 class="projectName">Project name goes here</h3>
+    
+                <ul class="greenul">
+                    <li class="greenli">HTML/CSS</li>
+                    <li class="greenli">Ruby on Rails</li>
+                    <li class="greenli">JavaScript</li>
+                </ul>
+    
+                <button class="button1 width65 buttonMargin1">See this project
+                    <img src="resources/Union.png" alt="Cooler Arrow Pointing Right">
+                    <img src="resources/Union2.svg" alt="Cool (Blue) Arrow Pointing Right">
+                </button>
+            </div>
+        
+            <img class="fullWidth yellowLaptop" src="resources/Rectangle 21(4).png" alt="Laptop and other objects">
+            <div class="blueBox dispNone">
+                <h3 class="projectName">Project name goes here</h3>
+    
+                <ul class="greenul">
+                    <li class="greenli">HTML/CSS</li>
+                    <li class="greenli">Ruby on Rails</li>
+                    <li class="greenli">JavaScript</li>
+                </ul>
+    
+                <button class="button1 width65 buttonMargin1">See this project
+                    <img src="resources/Union.png" alt="An Even Cooler Arrow Pointing Right">
+                    <img src="resources/Union2.svg" alt="Cool (Blue) Arrow Pointing Right">
+                </button>
+            </div>
+    
+            <div class="dotsAndGeo dispNoneMobile"></div>
+    
+            <div class="roundDeco dispNoneMobile"></div>
+    
+            <div class="roundDeco2 dispNoneMobile"></div>
+    
+            <div class="squareDeco dispNoneMobile"></div>
+    
+            <div class="squareDeco2 dispNoneMobile"></div>
+    
+            <div class="handCursor dispNoneMobile"></div>
+    
+            <div class="handCursor2 dispNoneMobile"></div>
+    
+            <div class="bigSmall">
+                <img class="fullWidth grayLaptop" src="resources/Rectangle 21(5).png" alt="Another laptop and other objects">
+                <div class="blueBox grayLaptop">
+                    <h3 class="projectName">Project name goes here</h3>
+    
+                    <ul class="greenul">
+                        <li class="greenli">HTML/CSS</li>
+                        <li class="greenli">Ruby on Rails</li>
+                        <li class="greenli">JavaScript</li>
+                    </ul>
+    
+                    <button class="button1 width65 buttonMargin1">See this project
+                        <img src="resources/Union.png" alt="Cool (White) Arrow Pointing Right">
+                        <img src="resources/Union2.svg" alt="Cool (Blue) Arrow Pointing Right">
+                    </button>
                 </div>
-            </button>
-        </div>
-
-        <section class="myTechnologies">
-            <div class="margTop1">
-                <section class="blueRectangle marginleft17 width90">
-                    <section class="poundsign"></section>
-
-                    <section class="rectangleText">
-                        <ul>
-                            <li class="PoppinsSemiBold bigaboutli">Languages</li>
-                            <li class="PoppinsRegular">JavaScript(ES5/ES6)</li>
-                            <li class="PoppinsRegular">Ruby</li>
-                            <li class="PoppinsRegular">HTML</li>
-                            <li class="PoppinsRegular">CSS</li>
-                        </ul>
-                    </section>
-                </section>
             </div>
-            
-            <div class="margTop2">
-                <section class="redRectangle marginleft17 width90">
-                    <section class="squaresign"></section>
-
-                    <section class="rectangleText">
-                        <ul>
-                            <li class="PoppinsSemiBold bigaboutli">Frameworks</li>
-                            <li class="PoppinsRegular">Bootstrap</li>
-                            <li class="PoppinsRegular">Ruby on rails</li>
-                            <li class="PoppinsRegular">RSpec</li>
-                            <li class="PoppinsRegular">Capibara</li>
-                            <li class="PoppinsRegular">Selenium</li>
-                        </ul>
-                    </section>
-                    
-                </section>
-            </div>
-            
-            <div class="margTop1">
-                <section class="yellowRectangle marginleft17 width90">
-                    <section class="lightbulb"></section>
-
-                    <section class="rectangleText">
-                        <ul>
-                            <li class="PoppinsSemiBold bigaboutli">Skills</li>                       
-                            <li class="PoppinsRegular">Codekit</li>
-                            <li class="PoppinsRegular">Codepen</li>
-                            <li class="PoppinsRegular">GitHub</li>
-                            <li class="PoppinsRegular">GitLab</li>
-                            <li class="PoppinsRegular">Terminal</li>
-                        </ul>
-                    </section>
-                </section>
-            </div>
-            
-            <div class="tealndots">
-                <img class="tealndots1" src="resources/image_dots.png" alt="Dotted Figures">
-                <img class="tealndots2" src="resources/Shape.svg" alt="Little Teal Square">
+    
+            <img class="fullWidth pinkLaptop" src="resources/Rectangle 21(6).png" alt="Picture of laptop and other objects">
+            <div class="blueBox dispNone">
+                <h3 class="projectName">Project name goes here</h3>
+    
+                <ul class="greenul">
+                    <li class="greenli">HTML/CSS</li>
+                    <li class="greenli">Ruby on Rails</li>
+                    <li class="greenli">JavaScript</li>
+                </ul>
+    
+                <button class="button1 width65 buttonMargin1">See this project
+                    <img src="resources/Union.png" alt="Yet An Even Cooler Arrow Pointing Right">
+                    <img src="resources/Union2.svg" alt="Cool (Blue) Arrow Pointing Right">
+                </button>
             </div>
         </section>
-    </section>
-
-    <section class="getstarted bigDeco">
-        <div class="bottomDeco dispNone"></div>
-
-        <section>
-            <h2 class="getstartedLabel">Get started</h2>
-            <p class="bottomParagraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
-        </section>
-        <form action="https://formspree.io/f/myyvzejv" method="post" class="formTop">
-            <ul>
-                <div class="dflex4">
-                    <li class="posrev margRight1">
-                        <label for="name" class="crazylabel">Your name</label>
-                        <input type="text" id="name" name="user_name" maxlength="30" placeholder="Full name" required>
-                    </li>
-                    <li class="posrev">
-                        <label for="email" class="crazylabel">Your email</label>
-                        <input type="email" id="email" name="user_email" placeholder="Email address" required>
-                    </li>
+    
+        <a id="About"></a>
+        <section class="aboutSection">
+            <div class="aboutRight">
+                <h2 class="textdeco3">About</h2>
+                
+                <p class="paragraph1">
+                    I love to code. I think coding is where the arts and the sciences meet. It's the most natural activity for a renaissance person. imho
+                </p>
+                
+                <button class="button1 width90 getmyCV">
+                    <div class="dflex">
+                        <p class="margRight">Get my CV</p>
+                        <img src="resources/ic_download.svg" alt="Downward Arrow">
+                    </div>
+                </button>
+            </div>
+    
+            <section class="myTechnologies">
+                <div class="margTop1">
+                    <section class="blueRectangle marginleft17 width90">
+                        <section class="poundsign"></section>
+    
+                        <section class="rectangleText">
+                            <ul>
+                                <li class="PoppinsSemiBold bigaboutli">Languages</li>
+                                <li class="PoppinsRegular">JavaScript(ES5/ES6)</li>
+                                <li class="PoppinsRegular">Ruby</li>
+                                <li class="PoppinsRegular">HTML</li>
+                                <li class="PoppinsRegular">CSS</li>
+                            </ul>
+                        </section>
+                    </section>
                 </div>
-                <li>
-                    <label class="formBox2-label" for="formBox2">Message</label>
-                    <textarea  class="formBox2" id="formBox2" name="user_message" maxlength="500" placeholder="Enter your message here..." required></textarea>
-                </li>
-                <li>
-                    <button type="submit" name="submit" class="button1 width288">Start collaboration</button>
-                </li>
+                
+                <div class="margTop2">
+                    <section class="redRectangle marginleft17 width90">
+                        <section class="squaresign"></section>
+    
+                        <section class="rectangleText">
+                            <ul>
+                                <li class="PoppinsSemiBold bigaboutli">Frameworks</li>
+                                <li class="PoppinsRegular">Bootstrap</li>
+                                <li class="PoppinsRegular">Ruby on rails</li>
+                                <li class="PoppinsRegular">RSpec</li>
+                                <li class="PoppinsRegular">Capibara</li>
+                                <li class="PoppinsRegular">Selenium</li>
+                            </ul>
+                        </section>
+                        
+                    </section>
+                </div>
+                
+                <div class="margTop1">
+                    <section class="yellowRectangle marginleft17 width90">
+                        <section class="lightbulb"></section>
+    
+                        <section class="rectangleText">
+                            <ul>
+                                <li class="PoppinsSemiBold bigaboutli">Skills</li>                       
+                                <li class="PoppinsRegular">Codekit</li>
+                                <li class="PoppinsRegular">Codepen</li>
+                                <li class="PoppinsRegular">GitHub</li>
+                                <li class="PoppinsRegular">GitLab</li>
+                                <li class="PoppinsRegular">Terminal</li>
+                            </ul>
+                        </section>
+                    </section>
+                </div>
+                
+                <div class="tealndots">
+                    <img class="tealndots1" src="resources/image_dots.png" alt="Dotted Figures">
+                    <img class="tealndots2" src="resources/Shape.svg" alt="Little Teal Square">
+                </div>
+            </section>
+        </section>
+    
+        <section class="getstarted bigDeco">
+            <a id="Contact"></a>
+            <div class="bottomDeco dispNone"></div>
+    
+            <section>
+                <h2 class="getstartedLabel">Get started</h2>
+                <p class="bottomParagraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
+            </section>
+            <form action="https://formspree.io/f/myyvzejv" method="post" class="formTop">
+                <ul>
+                    <div class="dflex4">
+                        <li class="posrev margRight1">
+                            <label for="name" class="crazylabel">Your name</label>
+                            <input type="text" id="name" name="user_name" maxlength="30" placeholder="Full name" required>
+                        </li>
+                        <li class="posrev">
+                            <label for="email" class="crazylabel">Your email</label>
+                            <input type="email" id="email" name="user_email" placeholder="Email address" required>
+                        </li>
+                    </div>
+                    <li>
+                        <label class="formBox2-label" for="formBox2">Message</label>
+                        <textarea  class="formBox2" id="formBox2" name="user_message" maxlength="500" placeholder="Enter your message here..." required></textarea>
+                    </li>
+                    <li>
+                        <button type="submit" name="submit" class="button1 width288">Start collaboration</button>
+                    </li>
+                </ul>
+            </form>
+        </section>
+    
+        <footer class="blueBox2">
+            <div class="dflex2 dispNone">
+                <p class="PoppinsRegular">Get my Resume</p>
+                <i class="fa-solid fa-arrow-up-right-from-square coolarrow"></i>
+            </div>
+            <div class="dflex5">
+                <h2 class="PoppinsRegular">Get my CV</h2>
+                <img class="tealimg" src="resources/ic-link_teal.svg" alt="Downward Arrow">
+            </div>
+            <ul class="dflex2">
+                <li><a class="awhite"><i class="fa-brands fa-stack-overflow socialmediaFontsize"></i></a></li>
+                <li><a class="awhite"><i class="fa-brands fa-github socialmediaFontsize"></i></a></li>
+                <li><a class="awhite"><i class="fa-brands fa-twitter socialmediaFontsize"></i></a></li>
+                <li><a class="awhite"><i class="fa-brands fa-linkedin socialmediaFontsize"></i></a></li>
+                <li><a class="awhite"><i class="fa-solid fa-m socialmediaFontsize"></i></a></li>
+                <li><a class="awhite"><i class="fa-brands fa-angellist socialmediaFontsize"></i></a></li>
             </ul>
-        </form>
-    </section>
+        </footer>
+    </div>
 
-    <footer class="blueBox2">
-        <div class="dflex2 dispNone">
-            <p class="PoppinsRegular">Get my Resume</p>
-            <i class="fa-solid fa-arrow-up-right-from-square coolarrow"></i>
-        </div>
-        <div class="dflex5">
-            <h2 class="PoppinsRegular">Get my CV</h2>
-            <img class="tealimg" src="resources/ic-link_teal.svg" alt="Downward Arrow">
-        </div>
-        <ul class="dflex2">
-            <li><a class="awhite"><i class="fa-brands fa-stack-overflow socialmediaFontsize"></i></a></li>
-            <li><a class="awhite"><i class="fa-brands fa-github socialmediaFontsize"></i></a></li>
-            <li><a class="awhite"><i class="fa-brands fa-twitter socialmediaFontsize"></i></a></li>
-            <li><a class="awhite"><i class="fa-brands fa-linkedin socialmediaFontsize"></i></a></li>
-            <li><a class="awhite"><i class="fa-solid fa-m socialmediaFontsize"></i></a></li>
-            <li><a class="awhite"><i class="fa-brands fa-angellist socialmediaFontsize"></i></a></li>
+    <div id="mobileMenu">
+        <div class="menuDeco"></div>
+        <div class="menuDeco2"></div>
+
+        <button onclick="closeMenu()" class="mobileCross">
+            <img src="resources/Union(1).svg" alt="X button">
+        </button>
+
+        <div class="dottedImage"></div>
+
+        <ul class="mobileMenuUL">
+            <li>
+                <a class="plainAnchor" onclick="closeMenu()" href="#Hello">Hello</a>
+            </li>
+            <li>
+                <a class="plainAnchor" onclick="closeMenu()" href="#Portfolio">Portfolio</a>
+            </li>
+            <li>
+                <a class="plainAnchor" onclick="closeMenu()" href="#About">About</a>
+            </li>
+            <li>
+                <a class="plainAnchor" onclick="closeMenu()" href="#Contact">Contact</a>
+            </li>
         </ul>
-    </footer>
+
+        <div class="dottedImage2"></div>
+    </div>
 </body>
 </html>
