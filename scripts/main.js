@@ -13,3 +13,6 @@ function closeMenu() {
   const mobileM = document.querySelector('#mobileMenu');
   mobileM.style.display = 'none';
 }
+
+coolMenu();
+closeMenu();
